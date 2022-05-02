@@ -97,7 +97,7 @@ def decreasing_sequence(perm, n):
         
     return(longest_seq)                
 
-file = open(r'C:/Users/Aputer/Downloads/rosalind_lgis.txt','r')
+file = open(path,'r')
 n = file.readline()
 n = int(n)
 permutation = file.read()
